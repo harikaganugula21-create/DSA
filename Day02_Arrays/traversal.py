@@ -1,6 +1,5 @@
-arr = list(map(int, input("Enter array elements: ").split()))
-
-print("Array Elements:")
+arr=[10,20,30,40,50]
 
 for i in arr:
+
     print(i)

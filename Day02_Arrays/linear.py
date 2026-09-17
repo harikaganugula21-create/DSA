@@ -1,4 +1,4 @@
-arr = list(map(int,input("Enter a Elements :").split()))
+arr = list(map(int,input("Enter a elements:" ).split()))
 
 target=int(input("Enter Target Value :"))
 

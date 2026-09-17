@@ -1,13 +1,9 @@
-arr= list(map(int,input("Enter a elements:" ).split()))
+arr=list(map(int,input("enter elements :").split()))
 
-rev=0
+n=len(arr)
 
-while(len(arr)<=0):
+for i in range(n//2):
 
-    digit=arr%10
+    arr[i],arr[n-i-1]=arr[n-i-1],arr[i]
 
-    rev=rev*10+digit
-
-    arr//10
-print(rev)    
-
+print(arr)    
